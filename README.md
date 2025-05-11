@@ -1,16 +1,73 @@
-<<<<<<< HEAD
-# React + Vite
+# 🖼️ React Image Gallery with Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive image gallery built using **React** and **Tailwind CSS**. The gallery showcases a set of dog-themed images arranged in a 4-column layout on larger screens and adapts gracefully to smaller devices.
 
-Currently, two official plugins are available:
+## 📸 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive grid layout using Tailwind CSS
+- 4 images per row on large screens
+- Clean UI with captions below each image
+- Modern setup with Vite for fast development
 
-## Expanding the ESLint configuration
+## 🏗️ File Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React-Image-React
->>>>>>> 22a447ed6f0eb6a3620e5c9d9a074c16d8dafa12
+<pre>
+  ```
+  Image-Gallery-React/
+├── public/
+│   └── vite.svg (optional or remove if unused)
+├── src/
+│   ├── assets/
+│   │   └── Images/
+│   │       ├── Img1.jpg
+│   │       ├── Img2.jpg
+│   │       ├── Img3.jpg
+│   │       ├── Img4.jpg
+│   │       ├── Img5.jpg
+│   │       ├── Img6.jpg
+│   │       ├── Img7.jpg
+│   │       └── Img8.jpg
+│   ├── Components/
+│   │   └── Gallery.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+├── vite.config.js
+└── README.md
+
+  ```
+</pre>
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+git clone https://github.com/yourusername/image-gallery-react.git
+cd image-gallery-react
+
+2. Install dependencies
+
+npm install
+
+3. Run the app
+
+npm run dev
+
+4. Build for production
+
+npm run build
+
+🧩 Tech Stack
+React
+
+Tailwind CSS
+
+Vite
+
+GitRepo: [https://github.com/Vishwanathangit/React-Image-React.git]
+
+LiveDemo: []
