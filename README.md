@@ -46,7 +46,7 @@ This is a responsive image gallery built using **React** and **Tailwind CSS**. T
 
 ### 1. Clone the repository
 
-git clone https://github.com/yourusername/image-gallery-react.git
+git clone https://github.com/Vishwanathangit/React-Image-React.git
 cd image-gallery-react
 
 2. Install dependencies
